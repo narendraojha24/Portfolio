@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"/>
+
+      <style>
+      </style>
+  </head>
+  <body>
+
+    <nav data-aos="zoom-in">
+      <a href="#" class="logo"><span>
+        Narendra
+      </span></a>
+      <ul class="links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#Servic">Services</a>
+          <a href="#Contact">Contact</a>
+          <a href="#Service">Projects</a>
+      </ul>
+      <i class='bx bx-menu-alt-left' id="menu"></i>
+
+      <a href="#Contact" class="btn">Contact Me</a>
+  </nav>
+
+  <section id="home" data-aos="zoom-out">
+      <img src="logo.jpg" alt="">
+      <div class="info-box">
+        <div class="text-animation">
+          Hello <span></span>
+        </div>
+          <h3><span style=" background: linear-gradient(to right,rgb(104, 18, 170),rgb(137, 52, 167));
+            background-clip: text;
+            color: transparent;
+            font-weight: 700;
+        ">Web Developer </span></h3>
+          <p>A passionate Web Developer with expertise in building interactive and user-friendly websites. I also have a strong foundation in UI/UX design, creating visually appealing and seamless user experiences. I love turning ideas into reality through clean code and innovative design.
+          </p>
+      </div>
+      <div class="btn-box">
+          <div class="btn">Hire</div>
+          <a href="#Contact"><div class="btn">Contact</div></a>
+      </div>
+      <div class="social-icons" data-aos="zoom-in">
+        <span><a href="https://www.linkedin.com/in/narendraojha24/"><i class='bx bxl-linkedin-square' style='color:#57b7f8;font-size: 42px;'></i></a></span>
+        <span><i class='bx bxl-instagram-alt' style="color: rgb(255, 7, 7) ;font-size: 42px;"></i></span>
+        <span><a href="https://github.com/narendraojha24"><i class='bx bxl-github' style='color:#cacaca;font-size: 42px;'></i></a></span>
+        <div class="whatsapp-icon-container">
+        <span id="whatsappIcon"><i class='bx bxl-whatsapp-square' style='color:#60e449;font-size: 42px;'  ></i></span>
+        <div class="tooltip" id="whatsappTooltip">
+          WhatsApp : 7987627973
+        </div>
+      </div>
+  </section>
+
+  <section id="about" data-aos="fade-up">
+    <div class="about-box">
+      <div class="about-info">
+        <h1><span>About me</span></h1>
+        <p>I'm Narendra ojha, a passionate web developer with a strong interest in Full Stack Development.
+          I specialize in creating responsive and interactive web experiences, focusing on user-centric designs that offer smooth functionality and aesthetic appeal. My expertise spans across HTML, CSS, JavaScript, and React, and I am constantly exploring new technologies to enhance my projects.</p>
+
+      </div>
+      <h2><span style=" background: linear-gradient(to right,rgb(104, 18, 170),rgb(137, 52, 167));
+        background-clip: text;
+        color: transparent;
+        font-weight: 700;">Skills</span></h2>
+      <div class="skills" data-aos="zoom-in">
+        <ul>
+          <li>
+            <i class='bx bxl-c-plus-plus' style="color: rgb(60, 106, 223);"></i>
+          </li>
+          <li>
+            <i class='bx bxl-html5' style="color: #ff480b;"></i>
+          </li>
+          <li>
+            <i class='bx bxl-css3' style="color: #0e58cf;" ></i>
+          </li>
+          
+        </ul>
+        <ul>
+          <li>
+            <i class='bx bxl-javascript' style="color: #fff700;"></i>
+          </li>
+          <li>
+            <i class='bx bxl-react' style="color: rgb(26, 194, 235);"></i>
+          </li>
+          <li>
+            <i class='bx bxl-figma' style="color: rgb(196, 11, 153);"></i>
+          </li>
+      
+        </ul>
+        <ul>
+          <li>
+            <i class='bx bxl-tailwind-css' style="color: aqua;"></i>
+          </li>
+          <li>
+            <i class='bx bxl-github' ></i>
+          </li>
+          <li>
+            <i class='bx bxl-firebase' style="color: #eb7412;"></i>
+          </li>
+         
+      
+        </ul>
+      </div>
+
+    </div>
+    <img src="image.jpg" alt="" data-aos="zoom-out">
+
+  </section>
+
+  <!-- Modal Box
+  <section id="Service">
+    <h1 class="header"><span>Services</span></h1>
+     <div class="services-container">
+      <div class="box" data-aos="fade-left">
+        <h1><span>Web Design</span></h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus eum consequatur in officiis sed atque cumque, neque voluptatibus eius, voluptas enim quos tenetur quibusdam inventore deserunt eveniet maiores, aspernatur incidunt.</p>
+        <img src="graphic.jpg" alt="">
+      </div>
+      <div class="box" data-aos="fade-right">
+        <h1><span>Web Design</span></h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus eum consequatur in officiis sed atque cumque, neque voluptatibus eius, voluptas enim quos tenetur quibusdam inventore deserunt eveniet maiores, aspernatur incidunt.</p>
+        <img src="graphic.jpg" alt="">
+      </div>
+      <div class="box" data-aos="fade-left">
+        <h1><span>Web Design</span></h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus eum consequatur in officiis sed atque cumque, neque voluptatibus eius, voluptas enim quos tenetur quibusdam inventore deserunt eveniet maiores, aspernatur incidunt.</p>
+        <img src="graphic.jpg" alt="">
+      </div>
+     </div>
+  </section>  -->
+
+
+  <!-- Modal -->
+  <div class="modal" id="projectModal">
+    <div class="modal-content">
+      <button class="close-btn" id="closeModal">&times;</button>
+      <h2>Signature App</h2>
+      <img src="signature.png" alt="Signature App">
+      <p style="text-align: left;">
+        Project Highlights:<br><br>
+        🖋️ Create:<br>
+Users can draw their signatures or any artwork directly on a canvas using an intuitive interface.
+The drawing tool is responsive and user-friendly, allowing for precise control and creativity.<br><br>
+💾 Save:<br>
+Implemented functionality to securely save the created signatures or drawings.
+Data is stored efficiently, ensuring that users can access their creations without any loss of quality.<br><br>
+📥 Download:<br>
+Users can easily download their signatures or drawings as image files (e.g., PNG).
+The download feature ensures that the artwork retains its original resolution and quality.<br><br>
+🔄 Retrieve:<br>
+Users can access and retrieve their saved signatures or drawings at any time.
+This feature is designed to provide a seamless experience, making it easy to manage and utilize stored signatures.
+      </p>
+      <br>
+      <ol>
+        <li> > Create digital signatures or drawings.</li>
+        <li> > Save signatures for later use.</li>
+        <li> > Download them as image files.</li>
+        <li> > Retrieve previously saved signatures.</li>
+      </ol>
+
+      <br>
+      <p style="font-weight: 600 ;font-size: larger;">
+        Hosted Project : <a href="https://narendraojha24.github.io/Signature-app/" target="_blank"> <button class="explore">View Here</button></a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Modal 1-->
+  
+  <div class="modal" id="projectModal1">
+    <div class="modal-content">
+      <button class="close-btn" id="closeModal1">&times;</button>
+      <h2>FurniExpert</h2>
+      <img src="furniExpert.png" alt="FurniExpert">
+      <p style="text-align: left;">
+        AR-based furniture shopping website designed to revolutionize the way people shop for furniture. With FurniExpert, users can:<br><br>
+
+✅ Visualize furniture in real-time environments using advanced WebXR technology.<br>
+✅ Interact with 3D furniture models by adjusting size, positioning, and rotation to suit their spaces.<br>
+✅ Enjoy a seamless user experience with a responsive interface, inspired by leading e-commerce platforms.<br>
+✅ Make informed decisions by exploring designs in their actual living spaces.<br><br>
+      </p>
+      <br>
+      <ol>
+        <li> > 3D Model Visualization in AR.</li>
+        <li> > Plane Detection Technology.</li>
+        <li> > Seamless User Interaction.</li>
+        <li> > Responsive design for smooth interaction across all devices – desktop, tablet, or mobile..</li>
+      </ol>
+
+      <br>
+      <p style="font-weight: 600 ;font-size: larger;">
+        Hosted Project : <a href="https://narendraojha24.github.io/FurniExpert-AR-Shopping/" target="_blank"> <button class="explore">View Here</button></a>
+      </p>
+    </div>
+  </div>
+
+
+  <!-- Modal 2-->
+  
+  <div class="modal" id="projectModal2">
+    <div class="modal-content">
+      <button class="close-btn" id="closeModal2">&times;</button>
+      <h2>Voice Converter</h2>
+      <img src="text.png" alt="FurniExpert">
+      <p>
+        The Voice-to-Text Converter is a React.js application designed to leverage the capabilities of the Web Speech API to transcribe spoken words into text in real-time. It includes intuitive features for managing transcriptions, such as saving, editing, downloading, and deleting them. The app provides a simple, responsive interface, making it suitable for various devices.</p>
+      <br>
+      <ol>
+        <li> 1. Voice-to-Text Conversion<br>
+
+          - Converts spoken words into text using the Web Speech API.<br>
+          - Supports real-time transcription with continuous updates as you speak.</li><br>
+        <li> 2. Save Transcriptions<br>
+
+          - Save transcriptions with a timestamp for easy organization.</li><br>
+        <li> 3. Manage Saved Texts<br>
+
+         -  Dropdown Options for Each Saved Text:<br>
+          = Download: Save the text locally as a .txt file.<br>
+         = Edit: Modify or add new content to the saved text.<br>
+         = Delete: Remove the transcription from the saved list.<br>
+         = Each saved text is accompanied by the date and time it was created.</li><br>
+         <li> 4. Clear Current Text<br>
+
+          - Quickly clear the text area for a fresh start.</li>
+      </ol>
+
+      <br>
+      <p style="font-weight: 600 ;font-size: larger;">
+        Hosted Project : <a href="https://voicetext-converter-git-main-narendra-ojha-s-projects.vercel.app/" target="_blank"> <button class="explore">View Here</button></a>
+      </p>
+    </div>
+  </div>
+
+  <section id="Service" data-aos="zoom-in">
+    <h1 class="header" id="Service" style="background-color: #07052418;"><span>Projects</span></h1>
+     <div class="services-container">
+      <div class="box" data-aos="zoom-out" id="projectBox" >
+        <h1><span style=" background: linear-gradient(to right,rgb(104, 18, 170),rgb(137, 52, 167));
+          background-clip: text;
+          color: transparent;
+          font-weight: 700;">Signature App</span></h1>
+        <p>A web application built with HTML, CSS, JavaScript, and Bootstrap that allows users to create, save, download, and retrieve signatures or drawings.</p>
+        <img src="signature.png" alt="">
+        <div style="display: flex;justify-content: space-between;">
+        <button class="explore">Explore</button>
+        <a href="https://narendraojha24.github.io/Signature-app/"><i class='bx bx-right-top-arrow-circle' style='color:#c1bfc0;font-size: 40px;' ></i></a>
+      </div>
+      </div>
+      <div class="box" data-aos="zoom-out" id="projectBox1" >
+        <h1><span style=" background: linear-gradient(to right,rgb(104, 18, 170),rgb(137, 52, 167));
+          background-clip: text;
+          color: transparent;
+          font-weight: 700;">FurniExpert</span></h1>
+        <p>FurniExpert is an Augmented Reality (AR) shopping platform that enhances the furniture shopping experience by allowing users to visualize and interact with 3D furniture models in their own environments before making a purchase.
+        </p>
+        <img src="furniExpert.png" alt="">
+        <div style="display: flex;justify-content: space-between;">
+          <button class="explore">Explore</button>
+          <a href="https://narendraojha24.github.io/FurniExpert-AR-Shopping/"><i class='bx bx-right-top-arrow-circle' style='color:#c1bfc0;font-size: 40px;' ></i></a>
+        </div>
+      </div>
+      <div class="box" data-aos="zoom-out" id="projectBox2" >
+        <h1><span style=" background: linear-gradient(to right,rgb(104, 18, 170),rgb(137, 52, 167));
+          background-clip: text;
+          color: transparent;
+          font-weight: 700;">Voice Converter</span></h1>
+        <p>This application is designed to transcribe speech into text in real-time, offering a seamless and efficient solution for note-taking, transcription, and more.</p>
+        <img src="text.png" alt="">
+        <div style="display: flex;justify-content: space-between;">
+          <button class="explore">Explore</button>
+          <a href="https://voicetext-converter-git-main-narendra-ojha-s-projects.vercel.app/"><i class='bx bx-right-top-arrow-circle' style='color:#c1bfc0;font-size: 40px;' ></i></a>
+        </div>
+      </div>
+     </div>
+  </section>
+
+  <section id="Contact" data-aos="zoom-in">
+    <h1 class="header"><span>Contact</span></h1>
+    <form id="contactForm" data-aos="flip-left" action="https://formspree.io/f/xlddyryg" method="POST">
+      <div class="input-box">
+        <span>Full Name</span>
+        <input type="text" id="name" name="Name" placeholder="Enter your Full Name" required />
+      </div>
+      <div class="input-box">
+        <span>Your Email</span>
+        <input type="email" id="email" name="Email" placeholder="Enter your Email" required />
+      </div>
+      <div class="input-box">
+        <span>Your Message</span>
+        <textarea id="message" name="message" placeholder="Enter your Message" required></textarea>
+      </div>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  
+    <div id="response" style="margin-top: 20px; color: rgb(255, 255, 255);font-size: 20px;padding-left: 150px;"></div>
+  </section>
+  
+
+
+ 
+  <footer>
+    <div class="col-left"  data-aos="zoom-out">
+      <div class="col-box">
+        <span><i class='bx bxs-location-plus bx-tada bx-flip-horizontal' style='color:#ff480b' ></i></span>
+        <span>Dongar, Raghogarh dist.Guna(MP)</span>
+
+      </div>
+      <div class="col-box">
+        <span><i class='bx bxs-phone-call ' style='color:#00f731' ></i></span>
+        <span>7987627973</span>
+
+      </div>
+      <div class="col-box">
+        <span><i class='bx bxs-envelope ' style='color:#ffc400' ></i></span>
+        <span>narendraojha997@gmail.com</span>
+
+      </div>
+    </div>
+
+    <div class="col-right" data-aos="zoom-in">
+      <span style="font-size: 40px;" id="Servic">About My Services</span>
+      <p><span style=" background: linear-gradient(to right,rgb(104, 18, 170),rgb(137, 52, 167));
+        background-clip: text;
+        color: transparent;
+        font-weight: 700;">Web Development : </span><br><br>
+         -> Custom Website Design and Development<br>
+         -> Responsive and Mobile-Friendly Websites<br>
+         -> E-commerce Solutions<br><br>
+        <span style=" background: linear-gradient(to right,rgb(104, 18, 170),rgb(137, 52, 167));
+        background-clip: text;
+        color: transparent;
+        font-weight: 700;">UI/UX Design : </span><br><br>
+        -> User-Centric Interface Design<br>
+        -> Wireframing and Prototyping (using Figma and other tools)<br>
+        -> User Journey Mapping
+        </p>
+        <br>
+          <!--
+    <div class="social-icons">
+      <span><a href="https://www.linkedin.com/in/narendraojha24/"><i class='bx bxl-linkedin-square' style='color:#57b7f8'></i></a></span>
+      <span><i class='bx bxl-instagram-alt' style="color: rgb(255, 7, 7) ;"></i></span>
+      <span><a href="https://github.com/narendraojha24"><i class='bx bxl-github' style='color:#cacaca'></i></a></span>
+      <div class="whatsapp-icon-container">
+      <span id="whatsappIcon"><i class='bx bxl-whatsapp-square' style='color:#60e449'  ></i></span>
+      <div class="tooltip" id="whatsappTooltip">
+        WhatsApp : 7987627973
+      </div>
+    </div> -->
+
+    </div>
+    </div>
+  </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset: 300,duration: 1000});
+    </script>
+  </body>
+</html>
+
