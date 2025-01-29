@@ -388,7 +388,6 @@
     justify-content: space-evenly;
     gap: 1em; 
     border-radius: 20px;
-    border: 1px solid #a1a2a3;
     transition-duration: 1s;
     padding-left: 10px;
     padding-right: 10px;
